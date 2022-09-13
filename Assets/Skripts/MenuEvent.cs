@@ -13,8 +13,8 @@ public class MenuEvent : MonoBehaviour
     private void Start()
     {
         _levelComplete = PlayerPrefs.GetInt("LevelComplete");
-        _level2.interactable = false;
-        _level3.interactable = false;
+       // _level2.interactable = false;
+       // _level3.interactable = false;
 
         switch (_levelComplete)
         {
