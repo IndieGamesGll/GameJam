@@ -12,8 +12,8 @@ public class DialogSecondPerson : MonoBehaviour
     public bool DialogStart = false;
     void Start()
     {
-        message[0] = "Привет! Вот твое второе задание";
-        message[1] = "Не подведи!";
+        message[0] = "Огонь вот вот заполонит все";
+        message[1] = "Скорее!";
         PanelDialog.SetActive(false);
     }
 

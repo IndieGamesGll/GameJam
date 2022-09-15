@@ -16,10 +16,19 @@ EditorBuildSettings:
     guid: 226464aa44b179d499c882b0d771b5ff
   - enabled: 1
     path: Assets/ScenesGame/Experience 2.unity
-    guid: fc4be8f22ed4eb14d9c04876228e60bd
+    guid: 824ea0314f768de4e991f6b01bf84a76
   - enabled: 1
     path: Assets/ScenesGame/Experience 3.unity
-    guid: cefbbb718db315246b33ea57bce74a4e
+    guid: f1d6592873111c04cb635c04f9d9067b
+  - enabled: 1
+    path: Assets/ScenesGame/Experience 4.unity
+    guid: 07f746fec75449945bc8996499973bfd
+  - enabled: 0
+    path: 
+    guid: 00000000000000000000000000000000
+  - enabled: 0
+    path: 
+    guid: 00000000000000000000000000000000
   - enabled: 0
     path: 
     guid: 00000000000000000000000000000000

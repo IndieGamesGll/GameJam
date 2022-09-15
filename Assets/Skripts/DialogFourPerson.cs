@@ -3,7 +3,8 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.SceneManagement;
 using UnityEngine.UI;
-public class DialogFirstPerson : MonoBehaviour
+
+public class DialogFourPerson : MonoBehaviour
 {
     public GameObject PanelDialog;
     public Text Dialog;
@@ -11,8 +12,8 @@ public class DialogFirstPerson : MonoBehaviour
     public bool DialogStart = false;
     void Start()
     {
-        message[0] = "Нам нужна помощь с огнем!";
-        message[1] = "Помоги!";
+        message[0] = "Нам нужна помощь с водой!";
+        message[1] = "Помоги скорее!";
         PanelDialog.SetActive(false);
     }
 
@@ -54,7 +55,7 @@ public class DialogFirstPerson : MonoBehaviour
             }
             if (Input.GetKeyDown(KeyCode.E))
             {
-                SceneManager.LoadScene("Experience 1");
+                SceneManager.LoadScene("Experience 4");
             }
         }
     }

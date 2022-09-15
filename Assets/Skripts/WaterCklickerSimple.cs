@@ -1,6 +1,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 public class WaterCklickerSimple : MonoBehaviour
 {
@@ -15,12 +16,12 @@ public class WaterCklickerSimple : MonoBehaviour
 
     void FixedUpdate()
     {
-        if (WaterPlane.transform.position.y >= 0.5)
+        if (WaterPlane.transform.position.y >=3.3)
         {
             GameOver();
         }
 
-        if (WaterPlane.transform.position.y <= -1.25)
+        if (WaterPlane.transform.position.y <= -0.01)
         {
             WaterParticle.SetActive(false);
             Win();
@@ -47,7 +48,11 @@ public class WaterCklickerSimple : MonoBehaviour
     public void Click()
     {
 
-        Vector3 Offset = new Vector3(0, -0.015f, 0);
+        Vector3 Offset = new Vector3(0, -0.02f, 0);
         WaterPlane.transform.Translate(Offset);
+    }
+    public void RestartLevel()
+    {
+        SceneManager.LoadScene(SceneManager.GetActiveScene().name);
     }
 }

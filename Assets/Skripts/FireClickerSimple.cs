@@ -1,6 +1,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 public class FireClickerSimple : MonoBehaviour
 {
@@ -55,5 +56,9 @@ public class FireClickerSimple : MonoBehaviour
 
         //Spark.startSpeed -= 0.025f;
         //Spark.startLifetime -= 0.025f;
+    }
+    public void RestartLevel()
+    {
+        SceneManager.LoadScene(SceneManager.GetActiveScene().name);
     }
 }

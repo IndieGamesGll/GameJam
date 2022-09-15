@@ -11,8 +11,8 @@ public class DialogThirdPerson : MonoBehaviour
     public bool DialogStart = false;
     void Start()
     {
-        message[0] = "Привет! Вот твое третье задание!";
-        message[1] = "Желаю Удачи!";
+        message[0] = "Ох уж эти гейзеры!";
+        message[1] = "Помоги с Водой!";
         PanelDialog.SetActive(false);
     }
 
