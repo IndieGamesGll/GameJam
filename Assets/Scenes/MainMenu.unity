@@ -1297,7 +1297,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 1
     m_VerticalOverflow: 1
     m_LineSpacing: 1
-  m_Text: GameJam
+  m_Text: "\u041D\u0430\u0443\u0447\u043D\u044B\u0439 \u041A\u043B\u0438\u043A"
 --- !u!222 &584808939
 CanvasRenderer:
   m_ObjectHideFlags: 0
