@@ -33,6 +33,12 @@ public class PauseMenu : MonoBehaviour
         _pauseGame = true;
     }
 
+    public void LoadMainLoka()
+    {
+        Time.timeScale = 1f;
+        SceneManager.LoadScene("MainLoka");
+    }
+
     public void LoadMainMenu()
     {
         Time.timeScale = 1f;

@@ -1,6 +1,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 using UnityEngine.UI;
 public class DialogThirdPerson : MonoBehaviour
 {
@@ -23,10 +24,10 @@ public class DialogThirdPerson : MonoBehaviour
             Dialog.text = message[0];
             DialogStart = true;
 
-            if (Input.GetKeyDown(KeyCode.R))
-            {
-                Dialog.text = message[1];
-            }
+            //if (Input.GetKeyDown(KeyCode.R))
+            //{
+            //    Dialog.text = message[1];
+            //}
 
         }
     }
@@ -46,6 +47,10 @@ public class DialogThirdPerson : MonoBehaviour
             if (Input.GetKeyDown(KeyCode.R))
             {
                 Dialog.text = message[1];
+            }
+            if (Input.GetKeyDown(KeyCode.E))
+            {
+                SceneManager.LoadScene("Experience 3");
             }
         }
     }
